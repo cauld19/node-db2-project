@@ -6,8 +6,8 @@ exports.up = function(knex) {
       tbl.text('model', 128).notNullable();
       tbl.integer('VIN').notNullable();
       tbl.integer('mileage').notNullable();
-      tbl.text('transmission type', 128);
-      tbl.text('status of title', 128);
+      tbl.text('transmissionType', 128);
+      tbl.text('statusOfTitle', 128);
   })
 };
 
